@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Hello AutocompleteController!
+{% endblock %}
+
+{% block body %}
+
+    <p>In both grouped UX Autocompletes/Tomselects the items are appearing at the bottom of the list after selecting or removing as selected (multiple). In ungrouped/plain it works fine - items stay in the order as at the beginning.</p>
+    {{ form(form) }}
+{% endblock %}
